@@ -87,7 +87,7 @@ class RoomProvider extends Component {
         // all the rooms
         let tempRooms = [...rooms];
 
-        //transform values
+        //transform values 123
         capacity = parseInt(capacity)
         price = parseInt(price)
 
