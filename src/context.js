@@ -112,7 +112,7 @@ class RoomProvider extends Component {
             tempRooms = tempRooms.filter(room => room.breakfast === true)
         }
 
-        //filter by size
+        //filter by size 123
         if(pets){
             tempRooms = tempRooms.filter(room => room.pets === true)
         }
