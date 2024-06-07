@@ -91,7 +91,7 @@ class RoomProvider extends Component {
         capacity = parseInt(capacity)
         price = parseInt(price)
 
-        // filter by type
+        // filter by type 123
         if(type !== 'all'){
             tempRooms = tempRooms.filter(room => room.type === type)
         }
